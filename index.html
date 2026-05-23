@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<body>
+<!-- Scroll Progress -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- Custom Cursor -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-follower" id="cursorFollower"></div>
+
+<!-- Background Animation -->
+<div class="bg-animation"></div>
+<div class="floating-shapes">
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+</div>
+
+<!-- Header -->
+<header id="header">
+    <nav>
+        <div class="logo">Portfolio</div>
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact" class="cta-button">Let's Talk</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <div class="hero-text">
+            <span class="hero-label">👋 SELAMAT DATANG DI PORTOFOLIO SAYA</span>
+            <h1>Tech Enthusiast | A Student</h1>
+            <p class="hero-subtitle">I want to build experience in the IT field because it is something I am truly interested in and has become a hobby. I want to continue expanding my knowledge of technology and computers, as well as further developing my skills in IT. It would be even more exciting if I could grow these skills at the Bandung Institute of Technology in the future.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-primary">Lihat Karya Saya →</a>
+                <a href="#contact" class="btn-secondary">Hubungi Saya</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Proyek Selesai</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">30+</div>
+                    <div class="stat-label">Klien Puas</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Tahun Pengalaman</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="profile-container">
+                <div class="profile-glow"></div>
+                <img src="Portofolio/Image/okta.webp" alt="Profile" class="profile-img">
+                <div class="tech-stack">⚛️ React</div>
+                <div class="tech-stack">🎨 UI/UX</div>
+                <div class="tech-stack">🚀 Next.js</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about">
+    <div class="section-header">
+        <span class="section-label">TENTANG SAYA</span>
+        <h2 class="section-title">Passion Meets Excellence</h2>
+        <p class="section-subtitle">Saya adalah siswa aktif jurusan Teknik Komputer dan Jaringan (TKJ) di SMK Negeri 2 Empat Lawang yang memiliki ketertarikan besar di bidang teknologi, komunikasi, dan organisasi. Terbiasa bekerja secara detail, bertanggung jawab dalam tim, serta mampu beradaptasi dalam berbagai situasi. Memiliki pengalaman dalam Lomba Kompetensi Siswa (LKS) bidang IT Networking System Administration tingkat Kabupaten dan Provinsi. Saya juga aktif dalam organisasi sekolah dan kegiatan sosial, serta senang belajar hal-hal baru untuk mengembangkan kemampuan pribadi dan profesional.</p>
+    </div>
+    <div class="about-grid">
+        <div class="about-content">
+            <h3>Membangun Masa Depan Digital</h3>
+            <p>Dengan pengalaman lebih dari 5 tahun di industri teknologi, saya telah membantu puluhan perusahaan mentransformasi bisnis mereka melalui solusi digital yang inovatif dan terukur.</p>
+            <p>Fokus saya adalah menciptakan pengalaman pengguna yang luar biasa sambil memastikan performa, skalabilitas, dan keamanan aplikasi di level enterprise.</p>
+        </div>
+        <div class="experience-list">
+            <div class="experience-item">
+                <div class="experience-icon">🎯</div>
+                <div class="experience-details">
+                    <h4>Strategic Planning</h4>
+                    <p>Merancang roadmap digital yang align dengan business goals</p>
+                </div>
+            </div>
+            <div class="experience-item">
+                <div class="experience-icon">💡</div>
+                <div class="experience-details">
+                    <h4>Innovation</h4>
+                    <p>Mengadopsi teknologi terkini untuk competitive advantage</p>
+                </div>
+            </div>
+            <div class="experience-item">
+                <div class="experience-icon">🚀</div>
+                <div class="experience-details">
+                    <h4>Execution</h4>
+                    <p>Delivery tepat waktu dengan kualitas premium</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills">
+    <div class="section-header">
+        <span class="section-label">KEAHLIAN</span>
+        <h2 class="section-title">Teknologi & Expertise</h2>
+        <p class="section-subtitle">Menguasai full-stack development dengan spesialisasi di modern web technologies</p>
+    </div>
+    <div class="skills-grid">
+        <div class="skill-card">
+            <div class="skill-icon">⚛️</div>
+            <h3>Frontend Development</h3>
+            <p>Membangun user interface yang responsif, accessible, dan performant dengan teknologi modern</p>
+            <div class="skill-tags">
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">Next.js</span>
+                <span class="skill-tag">TypeScript</span>
+                <span class="skill-tag">Tailwind CSS</span>
+            </div>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon">🔧</div>
+            <h3>Backend Development</h3>
+            <p>Merancang arsitektur backend yang scalable, secure, dan maintainable</p>
+            <div class="skill-tags">
+                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">PostgreSQL</span>
+                <span class="skill-tag">MongoDB</span>
+            </div>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon">☁️</div>
+            <h3>Cloud & DevOps</h3>
+            <p>Deployment dan infrastructure management di cloud platform</p>
+            <div class="skill-tags">
+                <span class="skill-tag">AWS</span>
+                <span class="skill-tag">Docker</span>
+                <span class="skill-tag">Kubernetes</span>
+                <span class="skill-tag">CI/CD</span>
+            </div>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon">🎨</div>
+            <h3>UI/UX Design</h3>
+            <p>Menciptakan desain yang user-centric dengan prinsip design thinking</p>
+            <div class="skill-tags">
+                <span class="skill-tag">Figma</span>
+                <span class="skill-tag">Adobe XD</span>
+                <span class="skill-tag">Prototyping</span>
+                <span class="skill-tag">User Research</span>
+            </div>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon">📱</div>
+            <h3>Mobile Development</h3>
+            <p>Aplikasi mobile native dan cross-platform dengan performa optimal</p>
+            <div class="skill-tags">
+                <span class="skill-tag">React Native</span>
+                <span class="skill-tag">Flutter</span>
+                <span class="skill-tag">iOS</span>
+                <span class="skill-tag">Android</span>
+            </div>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon">📊</div>
+            <h3>Data & Analytics</h3>
+            <p>Data-driven decision making dengan analytics dan visualization</p>
+            <div class="skill-tags">
+                <span class="skill-tag">Google Analytics</span>
+                <span class="skill-tag">Mixpanel</span>
+                <span class="skill-tag">Data Viz</span>
+                <span class="skill-tag">A/B Testing</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+    <div class="section-header">
+        <span class="section-label">PORTOFOLIO</span>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">Beberapa proyek terbaik yang telah saya kerjakan</p>
+    </div>
+    <div class="projects-grid">
+        <div class="project-card">
+            <div class="project-image">🏢</div>
+            <div class="project-content">
+                <div class="project-meta">
+                    <span class="project-badge">Web App</span>
+                    <span class="project-badge">Enterprise</span>
+                </div>
+                <h3>Enterprise SaaS Platform</h3>
+                <p>Platform manajemen proyek berbasis cloud untuk enterprise dengan 10K+ active users. Meningkatkan produktivitas tim hingga 40%.</p>
+                <div class="project-links">
+                    <a href="#" class="project-link">Live Demo</a>
+                    <a href="#" class="project-link">Case Study</a>
+                </div>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-image">🛒</div>
+            <div class="project-content">
+                <div class="project-meta">
+                    <span class="project-badge">E-Commerce</span>
+                    <span class="project-badge">Mobile</span>
+                </div>
+                <h3>E-Commerce Mobile App</h3>
+                <p>Aplikasi e-commerce dengan AI-powered recommendations. Mencapai 50K downloads dalam 3 bulan pertama dengan rating 4.8/5.</p>
+                <div class="project-links">
+                    <a href="#" class="project-link">View Project</a>
+                    <a href="#" class="project-link">GitHub</a>
+                </div>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-image">💰</div>
+            <div class="project-content">
+                <div class="project-meta">
+                    <span class="project-badge">FinTech</span>
+                    <span class="project-badge">Security</span>
+                </div>
+                <h3>Digital Banking Platform</h3>
+                <p>Platform banking digital dengan fitur real-time transactions, multi-currency support, dan security level bank-grade.</p>
+                <div class="project-links">
+                    <a href="#" class="project-link">Explore</a>
+                    <a href="#" class="project-link">Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-image">🎓</div>
+            <div class="project-content">
+                <div class="project-meta">
+                    <span class="project-badge">EdTech</span>
+                    <span class="project-badge">AI</span>
+                </div>
+                <h3>Learning Management System</h3>
+                <p>Platform pembelajaran online dengan AI adaptive learning, video streaming, dan interactive assessments untuk 5000+ siswa.</p>
+                <div class="project-links">
+                    <a href="#" class="project-link">Demo</a>
+                    <a href="#" class="project-link">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-image">🏥</div>
+            <div class="project-content">
+                <div class="project-meta">
+                    <span class="project-badge">HealthTech</span>
+                    <span class="project-badge">IoT</span>
+                </div>
+                <h3>Healthcare Management System</h3>
+                <p>Sistem telemedicine dengan integrasi IoT devices, electronic health records, dan appointment scheduling.</p>
+                <div class="project-links">
+                    <a href="#" class="project-link">Preview</a>
+                    <a href="#" class="project-link">Case Study</a>
+                </div>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-image">🚗</div>
+            <div class="project-content">
+                <div class="project-meta">
+                    <span class="project-badge">Mobility</span>
+                    <span class="project-badge">Real-time</span>
+                </div>
+                <h3>Ride-Sharing Platform</h3>
+                <p>Platform ride-sharing dengan real-time tracking, smart routing algorithm, dan integrated payment system.</p>
+                <div class="project-links">
+                    <a href="#" class="project-link">View App</a>
+                    <a href="#" class="project-link">Tech Stack</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials -->
+<section>
+    <div class="section-header">
+        <span class="section-label">TESTIMONIAL</span>
+        <h2 class="section-title">What Clients Say</h2>
+        <p class="section-subtitle">Kepercayaan dan kepuasan klien adalah prioritas utama</p>
+    </div>
+    <div class="testimonials-slider">
+        <div class="testimonial-card">
+            <p class="testimonial-text">"Hasil kerja yang luar biasa! Website kami mengalami peningkatan conversion rate sebesar 150% dalam 3 bulan pertama. Highly recommended untuk perusahaan yang ingin scale up digital presence."</p>
+            <div class="testimonial-author">
+                <div class="author-avatar"></div>
+                <div class="author-info">
+                    <h4>Sarah Johnson</h4>
+                    <p>CEO, TechStartup Inc.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <div class="section-header">
+        <span class="section-label">HUBUNGI SAYA</span>
+        <h2 class="section-title">Let's Work Together</h2>
+        <p class="section-subtitle">Punya proyek menarik? Mari diskusikan bagaimana saya bisa membantu</p>
+    </div>
+    <div class="contact-grid">
+        <div class="contact-info">
+            <h3>Mulai Proyek Anda</h3>
+            <p>Saya siap membantu mewujudkan visi digital Anda. Dari konsep hingga implementasi, mari ciptakan sesuatu yang luar biasa bersama.</p>
+            <div class="contact-methods">
+                <div class="contact-method">
+                    <div class="contact-icon">📧</div>
+                    <div>
+                        <h4>Email</h4>
+                        <p>hello@yourportfolio.com</p>
+                    </div>
+                </div>
+                <div class="contact-method">
+                    <div class="contact-icon">📱</div>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+62 812-3456-7890</p>
+                    </div>
+                </div>
+                <div class="contact-method">
+                    <div class="contact-icon">📍</div>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Bandung, Indonesia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" required placeholder="John Doe">
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" required placeholder="john@example.com">
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" required placeholder="Diskusi Proyek">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" required placeholder="Ceritakan tentang proyek Anda..."></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-brand">
+            <div class="logo">Portfolio.</div>
+            <p>Menciptakan solusi digital yang inovatif dan berdampak untuk bisnis masa depan.</p>
+            <div class="social-links">
+                <a href="#" class="social-link">LI</a>
+                <a href="#" class="social-link">GH</a>
+                <a href="#" class="social-link">TW</a>
+                <a href="#" class="social-link">IG</a>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h4>Navigation</h4>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Services</h4>
+            <ul>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">Mobile Apps</a></li>
+                <li><a href="#">UI/UX Design</a></li>
+                <li><a href="#">Consulting</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Contact</h4>
+            <ul>
+                <li><a href="mailto:hello@portfolio.com">Email Me</a></li>
+                <li><a href="tel:+6281234567890">Call Me</a></li>
+                <li><a href="#">Schedule Meeting</a></li>
+                <li><a href="#">Download CV</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 Portfolio. All rights reserved. Designed & Developed with ❤️</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
